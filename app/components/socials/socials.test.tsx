@@ -12,9 +12,9 @@ test("Links render", () => {
     expect(mediumLink).toHaveAttribute("href");
     expect(mediumLink).toHaveProperty("href", "https://sara-builds.medium.com/");
 
-    const linkedInLink = screen.getByLabelText("X");
-    expect(linkedInLink).toHaveAttribute("href");
-    expect(linkedInLink).toHaveProperty("href", "https://x.com/sara_builds");
+    const xLink = screen.getByLabelText("X");
+    expect(xLink).toHaveAttribute("href");
+    expect(xLink).toHaveProperty("href", "https://x.com/sara_builds");
 
     const gitHubLink = screen.getByLabelText("GitHub");
     expect(gitHubLink).toHaveAttribute("href");
@@ -36,8 +36,8 @@ test("Icons render", () => {
     const mediumIcon = screen.getByLabelText("Medium Icon");
     expect(mediumIcon).toHaveRole("img");
 
-    const linkedInIcon = screen.getByLabelText("X Icon");
-    expect(linkedInIcon).toHaveRole("img");
+    const xIcon = screen.getByLabelText("X Icon");
+    expect(xIcon).toHaveRole("img");
 
     const gitHubIcon = screen.getByLabelText("GitHub Icon");
     expect(gitHubIcon).toHaveRole("img");
