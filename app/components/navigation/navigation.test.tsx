@@ -23,7 +23,7 @@ test("Links render", () => {
     expect(booksLink).toHaveAttribute("href");
     expect(booksLink).toHaveProperty("href", domain + "/book-recommendations");
 
-    const aboutLink = screen.getByRole("link", { name: /About/ });
+    const aboutLink = screen.getByRole("link", { name: /Author/ });
     expect(aboutLink).toHaveAttribute("href");
-    expect(aboutLink).toHaveProperty("href", domain + "/about");
+    expect(aboutLink).toHaveProperty("href", domain + "/author");
 });
