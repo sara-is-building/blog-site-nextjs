@@ -12,7 +12,7 @@ export class TestArticles {
               date: 'Apr 22, 2024',
               datetime: '2024-04-22',
               category: 'AWS',
-            author: TestAuthors.author1,
+            author: TestAuthors.author4,
             postImage: '/file.svg'
           },
           {
@@ -24,7 +24,7 @@ export class TestArticles {
                 date: 'Mar 16, 2024',
                 datetime: '2024-03-16',
                 category: 'CDK',
-              author: TestAuthors.author2,
+              author: TestAuthors.author4,
               postImage: '/globe.svg'
             },
             {
@@ -36,7 +36,7 @@ export class TestArticles {
                 date: 'May 9, 2020',
                 datetime: '2020-05-09',
                 category: 'Java',
-              author: TestAuthors.author3,
+              author: TestAuthors.author4,
               postImage: '/globe.svg'
     
             },

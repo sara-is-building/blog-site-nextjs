@@ -1,7 +1,6 @@
 import Author from "./authorType";
 
 export default interface Article {
-    postImage: string;
     id: string,
      title: string,
      href: string,
@@ -9,5 +8,6 @@ export default interface Article {
      date: string, 
      datetime: string,
      category: string,
-     author: Author
+     author: Author,
+     postImage: string
 }
